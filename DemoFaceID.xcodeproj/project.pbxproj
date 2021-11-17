@@ -17,6 +17,8 @@
 		012D09C12735680200D33E15 /* DemoFaceIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D09C02735680200D33E15 /* DemoFaceIDTests.swift */; };
 		012D09CB2735680200D33E15 /* DemoFaceIDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D09CA2735680200D33E15 /* DemoFaceIDUITests.swift */; };
 		012D09CD2735680200D33E15 /* DemoFaceIDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D09CC2735680200D33E15 /* DemoFaceIDUITestsLaunchTests.swift */; };
+		012D09DA273598A000D33E15 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D09D9273598A000D33E15 /* AuthenticationViewModel.swift */; };
+		012D09E227359FFC00D33E15 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D09E127359FFC00D33E15 /* HomeScreenVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		012D09C62735680200D33E15 /* DemoFaceIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoFaceIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		012D09CA2735680200D33E15 /* DemoFaceIDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFaceIDUITests.swift; sourceTree = "<group>"; };
 		012D09CC2735680200D33E15 /* DemoFaceIDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFaceIDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		012D09D9273598A000D33E15 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		012D09E127359FFC00D33E15 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				012D09B42735680200D33E15 /* LaunchScreen.storyboard */,
 				012D09B72735680200D33E15 /* Info.plist */,
 				012D09AF2735680000D33E15 /* DemoFaceID.xcdatamodeld */,
+				012D09D9273598A000D33E15 /* AuthenticationViewModel.swift */,
+				012D09E127359FFC00D33E15 /* HomeScreenVC.swift */,
 			);
 			path = DemoFaceID;
 			sourceTree = "<group>";
@@ -262,9 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				012D09B12735680000D33E15 /* DemoFaceID.xcdatamodeld in Sources */,
+				012D09DA273598A000D33E15 /* AuthenticationViewModel.swift in Sources */,
 				012D09AB2735680000D33E15 /* ViewController.swift in Sources */,
 				012D09A72735680000D33E15 /* AppDelegate.swift in Sources */,
 				012D09A92735680000D33E15 /* SceneDelegate.swift in Sources */,
+				012D09E227359FFC00D33E15 /* HomeScreenVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
